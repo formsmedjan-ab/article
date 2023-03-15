@@ -1,6 +1,5 @@
 const path = require('path');
 const { DllReferencePlugin } = require('webpack');
-
 module.exports = {
     entry: path.join(__dirname, 'resources', 'js', 'index.js'),
     mode: 'development',
